@@ -1,21 +1,19 @@
-# Week 1
- ### Here's what I learned so far:
 
- * ## HTML
+ * # HTML
     * DIVs to group items together
     * IDs to identify one item
     * Classes to identify items belong to the same class
     
- * ## CSS
+ * # CSS
     * ### Flex-box
       * I learned how to easily align boxes using ***display:flex***. Use ***justify-content*** to put it in a column or row and ***align-items*** to put boxes in the center.
     * ### Properties
       * I learned more properties like ***border***, ***font-family***, ***float***, ***margin***, ***padding***, ***border-radius***
     * ### Hover animations 
-* ## Bash
+* # Bash
     * Create directories using ***mkdir***
     * Remove directories using ***rmdir -ef***
-    * Creat files ***touch***
+    * Create files ***touch***
     * Remove files ***rm***
     * Move or rename files ***mv***
     * List file ***ls***
@@ -25,9 +23,6 @@
 
 
 
-# Week2
-
-## Early week
 
 We did instabox group assignment to advance our flexbox skills. 
 - 1. We identified page's structure
@@ -62,7 +57,6 @@ CSS
 Final result:
 ![](https://media2.giphy.com/media/EbwvwkfPvlKENhe6sW/giphy.gif)
 
-## Mid-week
 
 We started learning grid.
 First, we need to identify rows, columns and their sizes.
@@ -123,7 +117,6 @@ CSS
 ```
 ###### P.S A dot means empty space.
 
-## Late week
 
 We had a Twitter post assignment.
 
@@ -142,20 +135,19 @@ The code for monster website can be find [here](https://repl.it/@NSKvak/copy-oce
 
 
 
-# Week 3
 
-### Collaborating on VSC
+## Collaborating on VSC
 
 I learned how to fork, clone, push and pull codes using terminal.
 * First we need to fork the code if we haven't been granted an access. 
 * Then we need to clone it by copying the ink `cmd+l, cmd+c`, then in terminal type `git clone "link"` end hit enter.
-* After changing the code, we go to terminal to add modifictations `git add index.html`
+* After changing the code, we go to terminal to add modifications `git add index.html`
 * Then commit `gti commit -m "Adds title"`
 * And push `git push`
 * To pull changes others made we use `git pull`
 
-### Shortcuts
-* `cmd+left/right arrow` - moves to the begininng/end of line
+## Shortcuts
+* `cmd+left/right arrow` - moves to the beginning/end of line
 * `opt+left/right arrow` - moves by words
 * `cmd+up/down arrow` - moves to the beginning/end of code
 * `opt+up/down arrow` - moves current line to the line above/bellow
@@ -169,7 +161,7 @@ I learned how to fork, clone, push and pull codes using terminal.
 * `cmd+shift+k` - deletes the line
 * `cmd+shift+p` - find everything
 
-### Java Script
+# Java Script
 * Make variables: `let x = 8;`
 * String - actual words/letters: `x = '2';`
 * Numbers: `x = 2;`
@@ -182,7 +174,6 @@ I learned how to fork, clone, push and pull codes using terminal.
 
 
 
-# Week 4
 
 ## Tips
 * `codemon name_of_file` - to see if it's working on terminal and it will update automatically
@@ -227,7 +218,6 @@ You can change **let** later but can't change **const**. Both of them cannot be 
 
 
 
-# Week 5
 
 * ## Switch syntax:
 ``` 
@@ -246,7 +236,7 @@ const name =  getInput();
 console.log("Hi, " + name);
 ```
 ` node filename.js Nastya` will show Hi, Nastya in terminal.
-* #### To use getInput we should first store a variable. If there are **two** argeuments we should write getInput(0), getInput(1) for the first two.
+* #### To use getInput we should first store a variable. If there are **two** arguments we should write getInput(0), getInput(1) for the first two.
 
 * #### To run prettier we should turn auto-save off, check format on save, and when changing codes, click cmd+s, and run format on prettier.
 
@@ -271,12 +261,11 @@ module.exports = getInput;
 #### Then we can use `const name = getInput()`
 #### If there are several arguments use `getInput(1) and getInput(2)` depending on counting base.
 
-* `str.inscludes('')` or `str.endsWith('')` - to check if a string ends with a particular characters
+* `str.includes('')` or `str.endsWith('')` - to check if a string ends with a particular characters
 
 
 
 
-# Week 6
 
 ## New Syntax
 - have *${var}* will run the variable inside the quote, thus, conjugation is not needed for a string and variable.
@@ -316,7 +305,7 @@ console.log(e)
 ###### will return **true**
 
 
-## Arrays methods
+# Arrays methods
 * Push adds a new element to the end of the array
 `arr.push(5)`
 * Pop removes the last element to the beginning of the array
@@ -326,19 +315,19 @@ console.log(e)
 * Splice can remove and add elements from an array
 `arr.splice(1,1)`
 `arr. splice (1, 1, "Line", "Dot")`
-* Shift removes the fisrt item
+* Shift removes the first item
 `arr.shift('Banana')`
 * Slice splits one arrays into several. One argument says from where the new array stars, the second d=number says where it ends not including that number.
 `arr.slice(1, 3)`
-`arr.clice(2)`
+`arr.slice(2)`
 * Concat is merging several lists into one
 `const arrSum = arr1.concat(arr2, arr3)`
 * Reverse arrays
 `arr.reverse()`
-* Join chahges arrays to string and chooses separators
+* Join changes arrays to string and chooses separators
 `arr.join('*')`
 
-## Loops
+# Loops
 * To print all items from array we cn use this code:
 ```
 for (const item of arr){
@@ -358,7 +347,7 @@ for (const letter of variable){
 const nums = [1, 2, 3, 4];
 
 let sum = 0;
-for (const vause of nums){
+for (const value of nums){
   <!-- sum = sum + value;  -->
   sum +=value
 }
@@ -379,7 +368,7 @@ console.log(output)
 or
 `nums2.map(n => n*2)`
 
-* Filter - output in an array with equal to or fewwer elements as the input array
+* Filter - output in an array with equal to or fewer elements as the input array
 ```
 const nums3 = [1, 2, 3, 4, 5, 6, 7]
 
@@ -392,21 +381,20 @@ for (const value of nums3){
 ```
 
 
-# Week 7
 
 ```
 If (char === “ “){
-ShouldCapitaalized = true
+ShouldCapitalized = true
 } else {
 ShouldCapitalized = false
 }
 ```
 
 Simplification:
-`shouldCapiatalised = char === ‘ ‘`
+`shouldCapitalized = char === ‘ ‘`
 
 If we need to change true to false and vice verse use simplification:
-`ShouldCapitaalized = !ShouldCapitaalized`
+`ShouldCapitalized = !ShouldCapitalized`
 
 * `continue` skips the iteration from the loop
 
@@ -479,7 +467,7 @@ true
 true
 
 
-## Objects
+# Objects
 Keys - unique values inside one object.
 *For exp:*
 *'123 Main Str': 94120*
@@ -542,7 +530,6 @@ The function can mutate objects and arrays
 
 
 
-# Week 8
 
 ## Create repositories
 
@@ -564,12 +551,12 @@ If you have something on your USERNAME.github.io repo already and want to save y
 
 To quickly commit use -am instead of -m
 
-## Connect JS to HTML and CSS
+# Connect JS to HTML and CSS
 * `const bigTitle = document.querySelector('.big-title')` -  gives an object that returns part of HTML
 
-* bigTItle.innerHTML = "<div>asdf</div" - will change attributes on HTML
+* bigTitle.innerHTML = "<div>asdf</div" - will change attributes on HTML
 
-* `bigTItle.style.fontSize = '100px'` - changes font size;
+* `bigTitle.style.fontSize = '100px'` - changes font size;
 
 * `const bigTitles = document.querySelectorAll('.big-title')` - to get all things under the same class.
 
@@ -581,15 +568,15 @@ secondBigTitle.style.backgroundColor = 'blue'
 
 * changes image source
 ```
-const image = document.quwtySelector ('img');
+const image = document.querySelector ('img');
 image.src = 'http://www.tioxic.com/wp-content/uploads/trex_4.jpg'
 ```
 * first parameter is the event, second is function
 ```
 function changeBackgroundToGreen(){
-  consoe.log('change backeground to green')
+  consol.log('change background to green')
   const body = document.querySelector('body');
-  body.style.backgroundCOlor = 'green'
+  body.style.backgroundColor = 'green'
 }
 
 `button.addEventListener ('click', changeBackgroundToGreen)` 
@@ -628,7 +615,7 @@ for (const box of purpleBoxes){
 }
 ```
 
-### Elelment transitions
+### Element transitions
 ```
 .transition-element{
   transition: all 3s linear
@@ -659,7 +646,7 @@ container.appendChild(title)
 ```
 title.remove()
 ```
-* firts child refers to the first thing we put in there
+* first child refers to the first thing we put in there
 ```
 const tit;e2 = document.createElement (h3')
 title2.innerText = "another string"
@@ -671,7 +658,6 @@ container.firstChild
 
 
 
-# Week 9
 
 `element.lastElementChild` - return actual item, not a white space
 
@@ -684,7 +670,7 @@ const functionExxpression = function(){
 
 ### Arrow expressions
 ```
-const arrowFunciton = () => {
+const arrowFunction = () => {
   console.log('arrow function')
 }
 ```
@@ -700,8 +686,8 @@ Both expressions are not hoisted, you can't call them before they are defined
 ### Random
 `Math.random()`
 ```
-function getRnadom (){
-  const randomecimal = Math.random();
+function getRandom (){
+  const randomDecimal = Math.random();
   const scaledRandom == randomDecimal *3
   return Math.floor(scaledRandom)
 }
@@ -711,7 +697,7 @@ function getRnadom (){
 const a = ['c', 'b']
 a.sort();
 
-<!-- This will sort it alphabeticallym which is wrong! -->
+###### This will sort it alphabetically which is wrong!
 console.log = ['-2', '-1', '0', '1', '2']
 b.sort()
 console.log(b)
@@ -766,8 +752,7 @@ returns text input
 
 
 
-# Week 10
-## Responsive website
+# Responsive website
 
 ```
 @media screen and (max-width:300px){
@@ -785,16 +770,15 @@ returns text input
 
 
 
-# Week 11
 
 * Delaying of execusion of the code
-1500=1.5 secons
-`setTimeout(helloWirld, 1500)`
+1500=1.5 seconds
+`setTimeout(helloWorld, 1500)`
 
 * Repeating every 5 ms
 `setInterval(helloWorld, 500)`
 
-### Create sound
+## Create sound
 
 `const audio = new Audio('tick.mp3)` - gives us audio object
 `audio.play()` - you can put it into a function to play the audio object
@@ -806,9 +790,9 @@ returns text input
 ```
 
 const checkbox = document.querySelector('input')
-`ckeckbox.checked` - to see if thebox is checked
+`checkbox.checked` - to see if the box is checked
 
-## API
+# API
 ```
 <!-- Make a request to url -->
 
@@ -829,7 +813,7 @@ button.adEventListener('click', ()=>{
       return rawResponse.json()
     })
 
-    <!-- take the object and do whatewer you like -->
+    <!-- take the object and do whatever you like -->
 
     .then(function (json){
       console.log('response object acquired')
@@ -852,7 +836,6 @@ fetch(URL)
 
 
 
-# Week 12
 
 ## Asynch promise/callbacks
 
@@ -899,9 +882,8 @@ encodeURI(NORAD)
 
 
 
-# Week 13
 
-## jQuery
+# jQuery
 ```
  <script
         src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -944,7 +926,7 @@ window.localStorage.setItem()
 const input = $('input')
 
 const previousInputText = window.localStorage.getItem('inputText')
-if(previpusInputText !== null){
+if(previousInputText !== null){
   input.val(previousInputText)
 }
 
